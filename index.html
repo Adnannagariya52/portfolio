@@ -8,110 +8,146 @@
 </head>
 <body>
     <header>
-        <nav class="container">
-            <a class="logo" href="#home">Adanan Nagariya<span>.</span></a>
-            <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </div>
+        <nav class="wrap">
+            <a class="logo" href="#home">AN<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section id="home" class="tinted">
-            <div class="container hero">
+        <!-- Home -->
+        <section class="wrap hero" id="home">
+            <div>
+                <p class="kicker">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hi, I'm<br>Adanan <em>Nagariya.</em></h1>
+                <p class="lead">Engineering student &amp; aspiring software developer</p>
+                <p>I build web projects, experiment with generative AI and enjoy solving real-world problems through technology.</p>
+                <div class="actions">
+                    <a class="button" href="#contact">Contact Me ↗</a>
+                    <a class="text-link" href="#projects">Explore my work ↓</a>
+                </div>
+                <p class="social-heading">Find me online</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/adnan-nagariya/" target="_blank" rel="noopener noreferrer"><strong class="social-icon">in</strong> LinkedIn ↗</a>
+                    <a href="https://github.com/Adnannagariya52" target="_blank" rel="noopener noreferrer"><strong class="social-icon">GH</strong> GitHub ↗</a>
+                    <a href="https://dev.to/agent_sessions/building-terraguard-offline-geotechnical-slope-monitoring-with-local-gemma-412b-devrelay-trcerj" target="_blank" rel="noopener noreferrer"><strong class="social-icon">DEV</strong> DEV ↗</a>
+                </div>
+            </div>
+            <figure class="portrait">
+                <img src="C:\Users\Adnan\Documents\GitHub\portfolio\images\profile.jpg" alt="Portrait of Adanan Nagariya">
+                <figcaption><span>01 / THE BUILDER</span><span>PUNE, INDIA</span></figcaption>
+            </figure>
+        </section>
+        <!-- About -->
+        <section class="dark section" id="about">
+            <div class="wrap split">
                 <div>
-                    <p class="eyebrow">FIRST-YEAR ENGINEERING STUDENT</p>
-                    <h1>Welcome to my portfolio<br><span>Adanan Nagariya</span></h1>
-                    <p class="intro">I enjoy building websites, exploring artificial intelligence and turning ideas into practical technology projects.</p>
-                    <a class="button" href="#contact">Contact Me</a>
+                    <p class="kicker">01 / About me</p>
+                    <h2>Learning by<br><em>building.</em></h2>
                 </div>
-                <img class="profile" src="images/profile.jpg" alt="Profile photo of Adanan Nagariya">
-            </div>
-        </section>
-        <section id="about">
-            <div class="container about">
                 <div>
-                    <h2>About Me</h2>
-                    <p>I am a first-year engineering student at NIAT X Alard University, Pune. I am interested in web development, artificial intelligence and problem solving.</p>
-                    <p>My goal is to become a skilled technology professional and build useful solutions to real-world problems. I enjoy learning through projects and hackathons.</p>
-                </div>
-                <div class="education">
-                    <p class="eyebrow">EDUCATION</p>
-                    <h3>NIAT X Alard University, Pune</h3>
-                    <p>Engineering • First year</p>
-                    <p>2026 – 2030 (expected)</p>
+                    <p class="lead">I am a first-year engineering student at NIAT X Alard University, Pune.</p>
+                    <p>My interests lie at the intersection of software development, generative AI and entrepreneurship. I enjoy understanding how technology works and applying what I learn to practical problems, from student productivity to environmental monitoring.</p>
+                    <p>Through hands-on projects and hackathons, I am developing my programming, problem-solving and collaboration skills. My goal is to become a capable software developer and build technology that creates meaningful value.</p>
+                    <div class="facts">
+                        <div><span>EDUCATION</span><strong>NIAT X Alard University</strong><p>Engineering · 2026–2030 (expected)</p></div>
+                        <div><span>ACHIEVEMENT</span><strong>First Prize</strong><p>Best Open Source AI Project · College Hacktoberfest 2026</p></div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="skills" class="tinted">
-            <div class="container">
-                <h2>Skills</h2>
-                <div class="skills">
-                    <div class="skill"><strong>&lt;/&gt;</strong>HTML</div>
-                    <div class="skill"><strong>#</strong>CSS</div>
-                    <div class="skill"><strong>Py</strong>Python</div>
-                    <div class="skill"><strong>AI</strong>Artificial Intelligence</div>
-                    <div class="skill"><strong>Web</strong>Web Development</div>
-                </div>
+        <!-- Skills -->
+        <section class="wrap section" id="skills">
+            <p class="kicker">02 / My toolkit</p>
+            <h2>Skills &amp; <em>capabilities.</em></h2>
+            <p class="skills-intro">Tools and technologies I use to turn ideas into working projects.</p>
+            <div class="skills">
+                <article><span>01 /</span><h3>HTML5</h3><p>Building accessible pages with headings, forms and semantic elements.</p>
+                    <div class="skill-tags"><span>Semantic HTML</span><span>Forms</span></div>
+                </article>
+                <article><span>02 /</span><h3>CSS3</h3><p>Creating responsive layouts with Flexbox, Grid and media queries.</p>
+                    <div class="skill-tags"><span>Flexbox</span><span>CSS Grid</span></div>
+                </article>
+                <article><span>03 /</span><h3>Python</h3><p>Writing Python programs and building backend services with FastAPI.</p>
+                    <div class="skill-tags"><span>Python</span><span>FastAPI</span></div>
+                </article>
+                <article><span>04 /</span><h3>Generative AI</h3><p>Experimenting with prompt design, local language models and AI-powered applications.</p>
+                    <div class="skill-tags"><span>Prompt design</span><span>Local LLMs</span></div>
+                </article>
+                <article><span>05 /</span><h3>Git &amp; GitHub</h3><p>Managing source code, tracking changes and collaborating on projects.</p>
+                    <div class="skill-tags"><span>Version control</span><span>Repositories</span></div>
+                </article>
+                <article><span>06 /</span><h3>Web Development</h3><p>Developing web applications and connecting interfaces to backend services.</p>
+                    <div class="skill-tags"><span>Web apps</span><span>API integration</span></div>
+                </article>
             </div>
         </section>
-        <section id="projects">
-            <div class="container">
-                <h2>Projects</h2>
+        <!-- Projects -->
+        <section class="section projects-section" id="projects">
+            <div class="wrap">
+                <p class="kicker">03 / Selected work</p>
+                <h2>Ideas into <em>reality.</em></h2>
                 <div class="projects">
                     <article class="project">
-                        <img src="images/terraguard.png" alt="TerraGuard acoustic monitoring dashboard">
-                        <div class="project-info">
-                            <p class="eyebrow">AI &amp; IoT</p>
+                        <img src="assets/terraguard.png" alt="TerraGuard acoustic monitoring dashboard">
+                        <div class="project-body">
+                            <p class="kicker">01 / AI + IoT · Award-winning</p>
                             <h3>TerraGuard</h3>
-                            <p>An offline landslide monitoring prototype using environmental sensors and local AI. Won first prize for Best Open Source AI Project at a college hackathon.</p>
-                            <a class="outline" href="images/terraguard.png" target="_blank" rel="noopener">View Project</a>
+                            <p>An offline slope-monitoring prototype that combines ESP32 sensor readings with a local Gemma model to support geotechnical investigation and human review.</p>
+                            <p class="tech">Python · FastAPI · Ollama · ESP32</p>
                         </div>
                     </article>
                     <article class="project">
-                        <img src="images/nexus.png" alt="NEXUS student operating system landing page">
-                        <div class="project-info">
-                            <p class="eyebrow">WEB DEVELOPMENT</p>
+                        <img src="assets/nexus.png" alt="NEXUS student platform landing page">
+                        <div class="project-body">
+                            <p class="kicker">02 / EdTech · Web development</p>
                             <h3>NEXUS</h3>
-                            <p>A student productivity platform designed to bring assignments, an AI tutor, academic analytics and study planning into one place.</p>
-                            <a class="outline" href="images/nexus.png" target="_blank" rel="noopener">View Project</a>
+                            <p>A student platform prototype designed to bring AI-assisted learning, assignments, achievements and progress tracking into one unified dashboard.</p>
+                            <p class="tech">Next.js · Supabase · AI integration</p>
                         </div>
                     </article>
                 </div>
             </div>
         </section>
-        <section id="contact" class="tinted">
-            <div class="container contact">
-                <div>
-                    <h2>Contact</h2>
-                    <p>Adanan Nagariya</p>
-                    <p><a href="mailto:adnannagaria@gmail.com">adnannagaria@gmail.com</a></p>
-                    <p>Pune, Maharashtra, India</p>
+        <!-- Contact -->
+        <section class="wrap section split" id="contact">
+            <div>
+                <p class="kicker">04 / Contact</p>
+                <h2>Let's <em>connect.</em></h2>
+                <p>Have an idea, a question or an opportunity to collaborate? I'd like to hear from you.</p>
+                <p class="social-heading">Connect on social platforms</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><strong class="social-icon">in</strong> LinkedIn ↗</a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><strong class="social-icon">GH</strong> GitHub ↗</a>
+                    <a href="https://dev.to/agent_sessions/building-terraguard-offline-geotechnical-slope-monitoring-with-local-gemma-412b-devrelay-trcerj" target="_blank" rel="noopener noreferrer"><strong class="social-icon">DEV</strong> DEV ↗</a>
                 </div>
-                <form action="#contact">
-                    <div class="form-row">
-                        <div><label for="name">Full Name</label><input id="name" type="text" placeholder="Your name" required></div>
-                        <div><label for="email">Email Address</label><input id="email" type="email" placeholder="Your email" required></div>
-                    </div>
-                    <label for="subject">Subject</label>
-                    <input id="subject" type="text" placeholder="Subject" required>
-                    <label for="message">Message</label>
-                    <textarea id="message" rows="3" placeholder="Your message" required></textarea>
-                    <button type="submit">Submit</button>
-                    <p class="form-note">Demo form — no messages are sent.</p>
-                </form>
+                <p class="note">Demo form: validates input locally; no message delivery service is connected.</p>
             </div>
+            <form action="#contact" method="get">
+                <label for="name">Full Name</label>
+                <input id="name" type="text" placeholder="Your name" autocomplete="name" required>
+                <label for="email">Email Address</label>
+                <input id="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+                <label for="subject">Subject</label>
+                <input id="subject" type="text" placeholder="What is it about?" required>
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" placeholder="Write your message" required></textarea>
+                <button class="button" type="submit">Submit Message ↗</button>
+            </form>
         </section>
     </main>
-    <footer>
-        <div class="container footer-content">
+    <footer class="dark">
+        <div class="wrap footer-inner">
             <p>© 2026 Adanan Nagariya. All rights reserved.</p>
             <div class="socials">
-                <a href="https://www.linkedin.com/in/adnan-nagariya/" target="_blank" rel="noopener">LinkedIn</a>
-                <a href="https://github.com/Adnannagariya52" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://www.linkedin.com/in/adnan-nagariya/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                <a href="https://github.com/Adnannagariya52" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                <a href="https://dev.to/agent_sessions/building-terraguard-offline-geotechnical-slope-monitoring-with-local-gemma-412b-devrelay-trcerj" target="_blank" rel="noopener noreferrer">DEV ↗</a>
             </div>
         </div>
     </footer>
